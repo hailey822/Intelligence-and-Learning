@@ -20,7 +20,6 @@ function setup(){
   colorMode(RGB, 100, 100, 100);
   info = createDiv('');
   info.position(0, 620);
-  frameRate(5);
 }
 
 function draw(){
