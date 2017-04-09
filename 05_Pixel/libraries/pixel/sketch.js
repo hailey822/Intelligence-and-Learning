@@ -7,7 +7,7 @@ var mutationRate = 0.01;
 var generation = 0;
 
 var rectSize = 80;
-var resolution = 4;
+var resolution = 5;
 var cellSize = rectSize/resolution;
 
 var info;
