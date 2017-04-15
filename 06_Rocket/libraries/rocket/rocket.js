@@ -38,9 +38,9 @@ function Rocket(dna){
       this.pos = target.copy();
     }
 
-    if (this.pos.x > rx && this.pos.x < rx + rw && this.pos.y > ry && this.pos.y <ry + rh){
-      this.crashed = true;
-    }
+    // if (this.pos.x > rx && this.pos.x < rx + rw && this.pos.y > ry && this.pos.y <ry + rh){
+    //   this.crashed = true;
+    // }
 
     if (this.pos.x < 0 || this.pos.x > width){
       this.crashed = true;

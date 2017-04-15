@@ -1,14 +1,14 @@
 var population;
-var lifespan = 400;
+var lifespan = 200;
 var lifeP;
 var count = 0;
 var target;
-var maxforce = 0.3;
+var maxforce = 0.5;
 
-var rx = 200;
-var ry = 200;
-var rw = 200;
-var rh = 10;
+// var rx = 200;
+// var ry = 200;
+// var rw = 200;
+// var rh = 10;
 
 function setup(){
   createCanvas(600, 400);
@@ -29,7 +29,7 @@ function draw(){
   }
 
   fill(255);
-  rect(rx, ry, rw, rh);
+  //rect(rx, ry, rw, rh);
 
   fill(255, 0, 0, 100);
 

@@ -40,11 +40,6 @@ function draw() {
   image(targetImg, 350, 10, sizeOfEachImage, sizeOfEachImage);
   test.displayImage(350, 45, 2);
 
-  var temp = new Array(col);
-  for (var i=0; i<col; i++){
-    temp[i] = new Array(row);
-  }
-
   var i= 0;
   for (var c=0; c<col; c++){
     for (var r=0; r<row; r++){
