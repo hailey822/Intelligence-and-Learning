@@ -11,7 +11,7 @@ function Spot(i, j){
   this.previous = undefined;
 
   this.wall = false;
-  if (random(1)< 0.5 ){
+  if (random(1)< 0.4 ){
     this.wall = true;
   }
 
