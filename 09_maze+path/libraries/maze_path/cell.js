@@ -34,6 +34,8 @@ function Cell(i,j) {
   this.checkNeighbors = function(){
     var temp = [];
     var i= this.i; var j = this.j;
+
+    // within the boundareis 
     if (j > 0) {
       var top = grid[i][j - 1];
       if (!top.visited)  {temp.push(top); }
@@ -52,6 +54,7 @@ function Cell(i,j) {
     }
 
 
+    
     if (temp.length>0){
       var r = floor(random(0, temp.length));
       return temp[r];
